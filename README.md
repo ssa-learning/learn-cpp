@@ -1,3 +1,5 @@
+# Notes
+
 (J'ajouterai des trucs au fur et a mesure de mon apprentissage.)
 
 ## Bases
