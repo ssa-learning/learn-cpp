@@ -1,7 +1,8 @@
 # Notes
 
 J'ajouterai des trucs au fur et a mesure de mon apprentissage.
-Je vous conseille aussi d'installer Obsidian pour lire ce .MD
+
+Je vous conseille aussi d'installer Obsidian pour lire ce MD.
 
 ## Bases
 
