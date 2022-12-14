@@ -1,7 +1,6 @@
-# Notes
+# Notes C++
 
 J'ajouterai des trucs au fur et a mesure de mon apprentissage.
-
 Je vous conseille aussi d'installer Obsidian pour lire ce MD.
 
 ## Bases
@@ -75,7 +74,7 @@ int main(void)
 	// assigner une valeur a un index
 	tablo[0] = 30;
 
-	// creer un tableau avec des valeurs qu'on choisis
+	// creer un tableau avec des valeurs qu'on choisit
 	int tablo[10] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 	
 	return 0;
@@ -146,6 +145,6 @@ int main(void)
 }
 ```
 
-Ce que ce code va faire, c'est tout simplement changer la valeur de `a` a l'adresse dans la memoire RAM ou elle se trouve. Dans le `main()` on donne l'adresse de `a` a `foo()` qui prend en argument cette fois ci pointeur et qui va, dans la fonction, changer la valeur de ce pointeur.
+Ce que ce code va faire, c'est tout simplement changer la valeur de `a` a l'adresse dans la memoire RAM ou elle se trouve. Dans le `main()` on donne l'adresse de `a` a `foo()` qui prend en argument cette fois ci un pointeur et qui va, dans la fonction, changer la valeur de ce pointeur.
 
 Attention, il ne faut pas modifier la valeur d'un pointeur nul (nullptr) ou d'un pointeur qui pointe a une adresse invalide car, sinon, on va "corrompre la memoire". Ce qui est TRES dangereux.
