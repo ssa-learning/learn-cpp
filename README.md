@@ -16,7 +16,7 @@ int main(void)
 	float taille_penis_cm = 14.5f;
 
 	// il est important de tjrs intialiser les variables
-	// (les mettre a 0 si elle a pas de valeur)
+	// (les mettre a 0 si elle ont pas de valeur)
 	// sinon bufferoverflow ou segmentation fault :(
 	
 	// exemples:
